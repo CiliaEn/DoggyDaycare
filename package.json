@@ -1,6 +1,7 @@
 {
   "name": "doggydaycare",
   "private": true,
+  "homepage": "https://gitname.github.io/DoggyDaycare",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
