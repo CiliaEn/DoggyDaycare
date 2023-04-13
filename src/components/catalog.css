@@ -1,0 +1,50 @@
+.catalog {
+    margin-top: 60px;
+  }
+
+  .catalog .listOfDogs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap: 20px;
+    justify-items: left;
+    grid-column-gap: 20px;
+    min-width: 600px;
+  }
+    
+  .catalog h2 {
+    font-family: sans-serif;
+    color: black;
+  }
+  
+  .catalog div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .catalog .dogItem {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    cursor: pointer;
+    min-width: 240px;
+    max-width: 240px;
+    background-color: white;
+  }
+  
+  .catalog .dogItem:hover {
+    background-color: #eee;
+  }
+  
+  .catalog .dogPicture {
+    width: 240px;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 0.25rem;
+  }
+  
+  .catalog div div p { 
+    font-size: 16px;
+    color: black;
+  }

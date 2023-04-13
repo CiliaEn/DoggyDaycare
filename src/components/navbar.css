@@ -1,0 +1,42 @@
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    height: 40px;
+    background-color: rgb(237, 231, 217);
+  }
+
+  .navbar .welcome {
+    font-size: 16px;
+    color: #444;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .navbar li {
+    margin: 0;
+  }
+  
+  .navbar .catalog {
+    color: #444;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar .catalog:hover {
+    color: #aaa;
+    
+  }
